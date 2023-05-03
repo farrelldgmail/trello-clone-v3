@@ -1,0 +1,20 @@
+### Create new user
+POST http://localhost:3030/users
+Content-Type: application/json
+
+{
+  "username": "Dave",
+  "displayname": "Type-D",
+  "email": "farrelld@gmail.com",
+  "password": "aa"
+}
+
+### Login
+POST http://localhost:3030/authentication
+Content-Type: application/json
+
+{
+  "email": "farrelld@gmail.com",
+  "password": "DesPatates",
+  "strategy": "local"
+}

@@ -1,0 +1,35 @@
+POST http://localhost:3030/tasks
+Content-Type: application/json
+
+{
+  "name": "Task 228",
+    "_id": "641c6e1fab41ce1a19b56a82",
+    "name": "Test 44",
+    "color": "#ff0000",
+    "createdAt": "2023-03-23T15:19:59.999Z",
+    "updatedAt": "2023-03-23T15:19:59.999Z",
+    "__v": 0
+  }
+}
+
+###
+
+POST http://localhost:3030/tasks
+Content-Type: application/json
+
+{
+  "name": "Task afffnl",
+  "listId": "641c6e1fab41ce1a19b56a82"
+}
+
+###
+
+GET  http://localhost:3030/tasks/?listId=6421a66c75d9733bc357943c
+Content-Type: application/json
+
+###
+
+GET  http://localhost:3030/tasks/
+Content-Type: application/json
+
+###

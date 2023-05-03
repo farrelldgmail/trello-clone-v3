@@ -1,0 +1,18 @@
+POST http://localhost:3030/lists
+Content-Type: application/json
+
+{
+  "name": "List bbb",
+  "color": "#ff0000",
+  "boardId":  "641c573b269736407faa0f6d"
+}
+
+###
+
+GET  http://localhost:3030/lists
+Content-Type: application/json
+
+###
+
+GET  http://localhost:3030/lists/?boardId=6421a66575d9733bc3579437
+Content-Type: application/json
